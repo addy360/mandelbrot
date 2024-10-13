@@ -24,9 +24,9 @@ public class Main extends JPanel {
                 centerY += offsetY;
 
                 if (SwingUtilities.isLeftMouseButton(e)) {
-                    zoomFactor *= 1.5;
+                    zoomFactor *= 3;
                 } else if (SwingUtilities.isRightMouseButton(e)) {
-                    zoomFactor /= 1.5;
+                    zoomFactor /= 3;
                 }
 
                 repaint();
